@@ -13,9 +13,9 @@ console.log(10 == 10);
 // part 2
 const name = "Salva";
 const Lname = "Foroughi"
-console.log(name + Lname);
+console.log(name +" "+ Lname);
 
 let i = 0;
-for (i = 0; i<10 ; i++) {
+for (i = 0; i<=10 ; i++) {
     console.log(i);
 }
