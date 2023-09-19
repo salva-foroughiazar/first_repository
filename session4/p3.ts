@@ -10,7 +10,7 @@ const ContactList: List[] = [
       gender: "female",
     },
   ];
-function AddToContact(name, phone, gender) {
+function AddToContact(name: string, phone: string, gender: string) {
   const Contact:List = {
     name: name,
     phone: phone,
@@ -25,12 +25,12 @@ AddToContact("raha", "093677777", "female");
 console.log(ContactList);
 
 
-function search(Sname) {
+function search(Sname: String) {
     let SearchResult = ContactList.find(element => element.name === Sname);
     if (SearchResult){
-        console.log("Done!")
+        console.log("Done!");
     } else {
-        console.log("Not here!")
+        console.log("Not here!");
     }
 }
 search("salva");
